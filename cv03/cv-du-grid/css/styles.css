@@ -1,0 +1,67 @@
+/* Float + Clear Solution */
+
+.float-box {
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-01 .float-box {
+    float: left;
+    width: 100%;
+}
+
+.container-02 .float-box {
+    float: left;
+    width: 50%;
+}
+
+.container-03 .float-box {
+    float: left;
+    width: 33.3333%;
+}
+
+.container-04 .float-box {
+    float: left;
+    width: 25%;
+}
+
+.clear {
+    clear: both;
+}
+
+.float-box:nth-child(1) {
+    background-color: rgb(255, 125, 78);
+}
+
+.float-box:nth-child(2) {
+    background-color: rgb( 47,  83, 160);
+}
+
+.float-box:nth-child(3) {
+    background-color: rgb(182, 109, 197);
+}
+
+.float-box:nth-child(4) {
+    background-color: rgb(168,  89,  60);
+}
+
+.float-box:nth-child(5) {
+    background-color: rgb(197,  56,  56);
+}
+
+.float-box:nth-child(6) {
+    background-color: rgb(167,  35,  79);
+}
+
+.float-box:nth-child(7) {
+    background-color: rgb( 33, 165, 121);
+}
+
+.float-box:nth-child(8) {
+    background-color: rgb(112, 158,  94);
+}
+
+.float-box:nth-child(9) {
+    background-color: rgb( 38, 189, 189);
+}
